@@ -1,0 +1,11 @@
+let name = "jane";
+console.log(name);
+console.log(name);
+name = "danya";
+console.log(name);
+console.log(name);
+console.log(name);
+name = 444;
+console.log(name);
+name = ["Рита", "Женя", "Леша", ""];
+console.log(name);
