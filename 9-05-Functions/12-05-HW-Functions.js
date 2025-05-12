@@ -31,3 +31,19 @@ function divide(x, y){
 let result4 = divide(30,10);
 
 console.log(result4);
+
+
+
+
+
+
+function sayHello(){
+    console.log("Привет");
+}
+sayHello();
+
+function greet(name){    
+    console.log("Привет, " + name);
+}
+
+greet("Женя");
