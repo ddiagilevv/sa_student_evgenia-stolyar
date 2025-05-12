@@ -1,13 +1,14 @@
 function add(a, b){
-    return a + b;
+    //return a + b;
+    return 'Результат: ' + (a + b);
 }
 
 let result1 = add(5,8);
 
 console.log(result1);
 
-function subtract(x, y){
-    return x - y;
+function subtract(a, b){
+    return a - b;
 }
 
 let result2 = subtract(30,10);
