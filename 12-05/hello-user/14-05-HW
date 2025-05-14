@@ -1,8 +1,0 @@
-const prompt = require('prompt-sync')();
-const number = prompt('введите число, чтоб узнать четное оно или нечетное');
-
-if (IsEven(number)) {
-    console.log(number + "четное");
-} else {
-    console.log(number + "нечетное");
-}
