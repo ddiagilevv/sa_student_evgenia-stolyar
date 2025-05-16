@@ -2,6 +2,8 @@
 //https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Number
 //https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/NaN
 
+const prompt = require('prompt-sync')();
+
 function calculate(a, b, operator){
     a = parseFloat(a);
     b = parseFloat(b);
@@ -21,8 +23,14 @@ function calculate(a, b, operator){
         case '%':
             if (b === 0) return 'ошибка! остаток от деления на ноль';
             return a % b;
-
         default: 
             return 'ошибка! неизвестный оператор';
     }
 }
+
+const value1 = prompt('введите первое число ');
+const operator = prompt('оператор ');
+const value2 = prompt('введите второе число ');
+
+let result = calculate(value1, value2, operator);
+console.log(`результат: ${result}`);
