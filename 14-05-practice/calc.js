@@ -21,8 +21,12 @@ function calculate(a, b, operator){
         case '%':
             if (b === 0) return 'ошибка! остаток от деления на ноль';
             return a % b;
-
         default: 
             return 'ошибка! неизвестный оператор';
     }
 }
+
+
+
+console.log(calculate(5, 6, '+'));
+
