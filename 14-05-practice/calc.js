@@ -28,16 +28,11 @@ function calculate(a, b, operator){
     }
 }
 
-<<<<<<< HEAD
-
-
 console.log(calculate(5, 6, '+'));
 
-=======
 const value1 = prompt('введите первое число ');
 const operator = prompt('оператор ');
 const value2 = prompt('введите второе число ');
 
 let result = calculate(value1, value2, operator);
 console.log(`результат: ${result}`);
->>>>>>> 79594a4a21499d00457abd4157e46356b342a117
