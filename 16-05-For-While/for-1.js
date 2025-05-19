@@ -15,3 +15,9 @@ for (let i = 5; i >= 0; i--){
 console.log("i равна: " + i);
 }
 
+console.log("------------------");
+
+for (let i = 2; i <= 4; i++){
+    console.log("i равна: " + i);
+
+}

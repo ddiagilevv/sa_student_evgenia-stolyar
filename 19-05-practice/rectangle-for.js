@@ -1,7 +1,3 @@
-//qwertyqwertyqwerty
-//qwertyqwertyqwerty
-// qwertyqwertyqwerty
-// qwertyqwertyqwerty
 
 const prompt = require('prompt-sync')();
 
@@ -10,15 +6,10 @@ const n = parseInt(prompt("Введите количество паттерно�
 const pattern = prompt("введите паттерн ");
 
 row = "";
-let i = 0; 
-while (i < n){  
-    row += pattern; // аналагично row = row + pattern
-    i++;
-}
-i = 0;
-while (i < m){
-    console.log(row);
-    i++;
-}
-
  
+for (let i = 0; i < n; i++){  
+    row += pattern; // аналагично row = row + pattern
+}
+for (let i = 0; i < m; i++){
+    console.log(row);
+}
