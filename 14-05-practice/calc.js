@@ -2,9 +2,12 @@
 //https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Number
 //https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/NaN
 
+try{
 const prompt = require('prompt-sync')();
 
+
 function calculate(a, b, operator){
+
     a = parseFloat(a);
     b = parseFloat(b);
     if (isNaN(a) || isNaN(b)){
@@ -36,3 +39,10 @@ const value2 = prompt('введите второе число ');
 
 let result = calculate(value1, value2, operator);
 console.log(`результат: ${result}`);
+
+} catch(error){
+        console.error("Ошибка!", error.message);
+        console.log(`ссылка на другой калькулятор: link`);
+}
+
+console.log(`2025`);
