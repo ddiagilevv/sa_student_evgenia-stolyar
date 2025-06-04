@@ -69,7 +69,7 @@ for(let row = matrix.length - 1; row >= 0; row--){
 }
 
 const squaredMatrix = [
-    [1, 2, 11, 22],   00 10 20 30  31 21 11 01 02 12 22 32 
+    [1, 2, 11, 22],  // 00 10 20 30  31 21 11 01 02 12 22 32 
     [3, 4, 33, 44], 
     [5, 6, 55, 66], 
     [7, 8, 77, 88]  
@@ -93,4 +93,3 @@ for(let row = 0; row < matrix.length; row++){
     console.log(" ");
 }
 
-console.log('1 3 5 7 8 6 ...');
